@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WriteActivity"
+    android:background="@drawable/wrteback"
+    android:layout_gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+
+        <EditText
+            android:background="@drawable/paper1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="80dp"
+            android:textColor="#000000"
+            >
+
+
+        </EditText>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="500dp">
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="@drawable/m_paper0"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"/>
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="@drawable/m_paper1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"/>
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="@drawable/m_paper2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"/>
+
+        <ImageButton
+            android:layout_width="70dp"
+            android:layout_height="80dp"
+            android:background="@drawable/m_paper3"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginTop="620dp">
+
+       <Button
+           android:layout_width="120dp"
+           android:layout_height="60dp"
+           android:background="@drawable/back"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="100dp" />
+
+       <Button
+           android:layout_width="120dp"
+           android:layout_height="60dp"
+           android:background="@drawable/upload"
+           android:layout_marginLeft="20dp"
+           android:layout_marginRight="30dp" />
+   </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

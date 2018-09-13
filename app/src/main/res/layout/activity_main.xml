@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/mainback"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--버튼 예시 1개 -->
+        <!--IMG VIEW와 TEXT PART로 구분 (이미지 / 아래 텍스트 부분)-->
+
+        <ImageButton
+            android:id="@+id/btn1"
+            android:onClick="onclick"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/contents1"
+            android:textAlignment="center"
+            tools:ignore="OnClick"
+            />
+
+        <Button
+            android:id="@+id/btn2"
+            android:onClick="onclick"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/contentsbar"
+            android:textAlignment="center"
+            android:text="왕이 살던 궁전, 경복궁"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            tools:ignore="OnClick"
+            />
+
+        <!--버튼 예시 1개 끝-->
+
+
+
+
+        <!--맵에 사용할 임시 레이아웃들, 맵을 연결 안 해서 따로 구성해두었음-->
+
+
+        <Button
+            android:id="@+id/writebutton"
+            android:layout_marginTop="20dp"
+            android:onClick="onclick"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/contentsbar2"
+            android:textAlignment="center"
+            android:text="작성하기 레이아웃"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            tools:ignore="OnClick"
+            />
+
+        <Button
+            android:id="@+id/contentsviewbutton"
+            android:layout_marginTop="20dp"
+            android:onClick="onclick"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="@drawable/contentsbar2"
+            android:textAlignment="center"
+            android:text="서찰 보기 레이아웃"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            tools:ignore="OnClick"
+            />
+
+        <!--버튼 예시 1개 끝-->
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:src="@drawable/floting"
+            android:onClick="onclick"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>
