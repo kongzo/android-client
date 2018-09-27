@@ -2,4 +2,9 @@
     <string name="app_name">고궁</string>
     <string name="title_activity_maps_activiy">MapsActiviy</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_data">DataActivity</string>
+    <string name="large_text">
+        내용내용 여기에 내용 뿌리면 돼 
+    </string>
+    <string name="action_settings">Settings</string>
 </resources>

@@ -1,17 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff"
-    tools:context=".ContentsActivity">
-
-    <TextView
+    tools:context=".ContentsActivity"
+    android:background="#ffffff">
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="긁어올 내용을 정해야 한다능!"
-        android:textColor="#000000"/>
+        android:orientation="vertical">
 
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/gung1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/content_title"
+            android:text="대제목"
+            android:textSize="18pt"
+            android:textAlignment="center"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="aasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremld;vbklermnflkdlvkmek"
+            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            android:background="#ffffff"
+            android:paddingTop="20dp"
+            tools:layout_editor_absoluteX="0dp"
+            android:lineSpacingExtra="5pt"
+            android:textColor="#000000"/>
 
-</android.support.constraint.ConstraintLayout>
+        <Button
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:textAlignment="center"
+            android:layout_height="32dp"
+            android:background="#c8c8c8"
+            android:textSize="20dp"
+            android:text="웹사이트 바로가기"/>
+    </LinearLayout>
+</ScrollView>
