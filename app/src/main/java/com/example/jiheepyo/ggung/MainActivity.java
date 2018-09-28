@@ -23,9 +23,6 @@ public class MainActivity extends AppCompatActivity {
     Button btn2;
     FloatingActionButton fab;
 
-    Button writebutton;
-    Button contentsviewbutton;
-
     final int gpsRequest = 100;
 
     Location curLocation;
@@ -68,37 +65,10 @@ public class MainActivity extends AppCompatActivity {
         btn2 = (Button)findViewById(R.id.btn2);
         fab = (FloatingActionButton)findViewById(R.id.fab);
 
-        writebutton = (Button)findViewById(R.id.writebutton);
-        contentsviewbutton = (Button)findViewById(R.id.contentsviewbutton);
-
         loadingDialog = new LoadingDialog(this);
     }
 
 
-    public void onclick(View v){
-        switch (v.getId()) {
-            case R.id.btn1:
-                Intent intent1 = new Intent(this, ContentsActivity.class);
-                startActivity(intent1);
-                break;
-
-            case R.id.btn2:
-                Intent intent2 = new Intent(this, ContentsActivity.class);
-                startActivity(intent2);
-                break;
-
-
-            case R.id.writebutton:
-                Intent intent3 = new Intent(this, WriteActivity.class);
-                startActivity(intent3);
-                break;
-
-            case R.id.contentsviewbutton:
-                Intent intent4 = new Intent(this, TextViewActivity.class);
-                startActivity(intent4);
-                break;
-        }
-    }
 
     boolean checkAppPermission(String[] requestPermission){
         boolean[] requestResult=new boolean [requestPermission.length];
@@ -167,4 +137,25 @@ public class MainActivity extends AppCompatActivity {
                 .setAction("Action", null).show();
     }
 
+    public void gotoDetail(int num){
+        Intent intent = new Intent(this, ContentsActivity.class);
+        intent.putExtra("palaceNumber", num);
+        startActivity(intent);
+    }
+
+    public void onGyeongbokgung(View view) {
+        gotoDetail(1);
+    }
+
+    public void onDeoksugung(View view) {
+        gotoDetail(2);
+    }
+
+    public void onChanggyeonggung(View view) {
+        gotoDetail(3);
+    }
+
+    public void onChangdeokgung(View view) {
+        gotoDetail(4);
+    }
 }

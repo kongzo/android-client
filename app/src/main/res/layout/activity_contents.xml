@@ -12,12 +12,13 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/palaceImage"
             android:layout_width="match_parent"
             android:layout_height="230dp"
             android:scaleType="centerCrop"
             android:src="@drawable/gung1" />
         <TextView
+            android:id="@+id/palaceTitle"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:background="@drawable/content_title"
@@ -26,12 +27,13 @@
             android:textAlignment="center"
             android:textColor="#000000"/>
         <TextView
+            android:id="@+id/palaceDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="aasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremv;lsdfmv;oekrsmfkld;vbklermnflkdlvkmekaasdkwoejfo;mv;ldsfm;vlremld;vbklermnflkdlvkmek"
-            app:layout_constraintTop_toBottomOf="@+id/imageView"
+            android:text=""
+            app:layout_constraintTop_toBottomOf="@+id/palaceImage"
             android:background="#ffffff"
-            android:paddingTop="20dp"
+            android:padding="20dp"
             tools:layout_editor_absoluteX="0dp"
             android:lineSpacingExtra="5pt"
             android:textColor="#000000"/>
@@ -45,6 +47,7 @@
             android:layout_height="32dp"
             android:background="#c8c8c8"
             android:textSize="20dp"
-            android:text="웹사이트 바로가기"/>
+            android:text="웹사이트 바로가기"
+            android:onClick="onWeb"/>
     </LinearLayout>
 </ScrollView>

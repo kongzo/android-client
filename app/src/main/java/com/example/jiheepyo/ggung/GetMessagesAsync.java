@@ -91,8 +91,13 @@ public class GetMessagesAsync extends AsyncTask<Void, Void, Boolean> {
                 Date writtenTime = getTime(rawTime);
                 int layout = object.getInt("layout");
                 int idx = object.getInt("idx");
+                String image = null;
 
                 posts.add(new Post(idx, lat, lng, likes, nickname, contents, writtenTime, layout));
+                if(layout == 4){
+                    image = object.getString("image");
+                    posts.get(posts.size() - 1).setImageURL(image);
+                }
 
                 JSONArray commentArray = object.getJSONArray("comments");
                 for(int j=0;j<commentArray.length();j++){

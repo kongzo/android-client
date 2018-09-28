@@ -13,6 +13,7 @@ public class Post implements Serializable {
     private int layout;
     private String nickname;
     private String contents;
+    private String imageURL;
     private Date writtenTime;
     private ArrayList<Comment> comments;
     private final static String DATE_FORAMT_STRING = "MM-dd hh-mm";
@@ -29,6 +30,9 @@ public class Post implements Serializable {
         comments = new ArrayList<>();
     }
 
+    public void setImageURL(String url){
+        imageURL = url;
+    }
     public String getWrittenTime() {
         SimpleDateFormat sdf = new SimpleDateFormat(DATE_FORAMT_STRING);
         return sdf.format(writtenTime);
@@ -68,5 +72,9 @@ public class Post implements Serializable {
 
     public int getLayout() {
         return layout;
+    }
+
+    public String getImageURL() {
+        return imageURL;
     }
 }

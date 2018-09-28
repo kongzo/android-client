@@ -20,7 +20,7 @@ public class LikeAsync extends AsyncTask<Integer, Void, Boolean> {
     @Override
     protected Boolean doInBackground(Integer... integers) {
         try {
-            String url = "13.125.78.77:8081/api/like/" + integers[0];
+            String url = "http://13.125.78.77:8081/api/like/" + integers[0];
             URL obj = new URL(url);
             HttpURLConnection con = (HttpURLConnection) obj.openConnection();
             //전송방식

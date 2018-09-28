@@ -1,9 +1,12 @@
 package com.example.jiheepyo.ggung;
 
+import android.support.annotation.NonNull;
+
+import java.io.Serializable;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Comment {
+public class Comment implements Comparable<Comment>, Serializable{
     private Date commentWrittenTime;
     private final static String DATE_FORAMT_STRING = "MM-dd hh-mm";
     private String id;
@@ -32,5 +35,13 @@ public class Comment {
 
     public String getNickname() {
         return nickname;
+    }
+
+
+    @Override
+    public int compareTo(@NonNull Comment o) {
+        if(commentWrittenTime.getTime() < o.commentWrittenTime.getTime())
+            return 0;
+        return 1;
     }
 }

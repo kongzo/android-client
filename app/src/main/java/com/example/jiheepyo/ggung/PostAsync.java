@@ -23,12 +23,20 @@ public class PostAsync extends AsyncTask<Void, Void, Boolean> {
     private int layout;
     private String result = "";
     private LoadingDialog loadingDialog;
+    private boolean isSetImage = false;
+    private String imageEncoded;
+
     PostAsync(double lng, double lat, String content, int layout, Context context){
         this.lng = lng;
         this.lat = lat;
         this.content = content;
         this.layout = layout;
         loadingDialog = new LoadingDialog(context);
+    }
+
+    public void setImage(String base64){
+        isSetImage = true;
+        imageEncoded = base64;
     }
     @Override
     protected Boolean doInBackground(Void... voids) {
@@ -41,6 +49,9 @@ public class PostAsync extends AsyncTask<Void, Void, Boolean> {
             params.put("nickname", adjective[random.nextInt(adjective.length)] + " " + noun[random.nextInt(noun.length)]);
             params.put("contents", content);
             params.put("layout", layout);
+            if(isSetImage){
+                params.put("image", "data:image/png:base64," + imageEncoded);
+            }
 
             StringBuilder postData = new StringBuilder();
             for(Map.Entry<String,Object> param : params.entrySet()) {

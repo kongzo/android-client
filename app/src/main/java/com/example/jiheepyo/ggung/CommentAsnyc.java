@@ -22,7 +22,7 @@ public class CommentAsnyc extends AsyncTask<String, Void, Boolean> {
     CommentAsnyc(Context context){
         loadingDialog = new LoadingDialog(context);
     }
-
+    private String nickname = "";
     @Override
     protected void onPostExecute(Boolean aBoolean) {
         super.onPostExecute(aBoolean);
@@ -46,7 +46,10 @@ public class CommentAsnyc extends AsyncTask<String, Void, Boolean> {
             URL url = new URL("http://13.125.78.77:8081/api/comment/" + idx); // 호출할 url
             Map<String,Object> params = new LinkedHashMap<>(); // 파라미터 세팅
             Random random = new Random();
-            params.put("nickname", adjective[random.nextInt(adjective.length)] + " " + noun[random.nextInt(noun.length)]);
+            String adj = adjective[random.nextInt(adjective.length)];
+            String no = noun[random.nextInt(noun.length)];
+            nickname = adj + " " + no;
+            params.put("nickname", nickname);
             params.put("contents", strings[1]);
 
             StringBuilder postData = new StringBuilder();
@@ -84,5 +87,7 @@ public class CommentAsnyc extends AsyncTask<String, Void, Boolean> {
         return true;
     }
 
-
+    public String getNickname() {
+        return nickname;
+    }
 }
