@@ -103,6 +103,7 @@ public class TextViewActivity extends AppCompatActivity {
             data.getComments().add(new Comment(new Date(), "", commentAsnyc.getNickname(), editText.getText().toString()));
             adapter = new CommentAdapter(data.getComments());
             commentView.setAdapter(adapter);
+            adapter.notifyDataSetChanged();
             Snackbar.make(view, "댓글 작성 성공!", Snackbar.LENGTH_LONG)
                     .setAction("Action", null).show();
         }

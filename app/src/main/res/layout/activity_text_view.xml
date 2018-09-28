@@ -7,7 +7,7 @@
     tools:context=".TextViewActivity"
     android:layout_gravity="center"
     android:orientation="vertical"
-    android:background="#000000">
+    android:background="@drawable/view_back">
 
 
     <LinearLayout
@@ -86,9 +86,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:background="#ffffff"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp">
+            android:background="#aaaaaa"
+            android:layout_margin="10dp">
 
             <EditText
                 android:id="@+id/commentEditText"
@@ -102,7 +101,7 @@
                 android:layout_weight="1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:background="#ffffff"
+                android:background="#203956"
                 android:onClick="onComment"/>
         </LinearLayout>
         <android.support.v7.widget.RecyclerView
