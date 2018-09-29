@@ -1,6 +1,6 @@
 # GO궁
 
-##### **2018년 서울시 앱 공모전 출품작(고궁)**
+##### **2018년 서울시 앱 공모전 출품작(신나는 서울 여행, 고궁)**
 
 ![image](https://github.com/kongzo/android-client/blob/master/resource/main.png)
 
