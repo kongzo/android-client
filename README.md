@@ -1,7 +1,8 @@
 # GO궁
 
-##### **2018년 서울시 앱 공모전 출품작(고궁)**
+##### **2018년 서울시 앱 공모전 출품작(신나는 서울 여행, 고궁)**
 
+![image](https://github.com/kongzo/android-client/blob/master/resource/main.png)
 
 
 ## Getting Started
@@ -32,5 +33,5 @@ Android 6.0 **Marshmallow** (API **23**) 이상에서만 동작합니다.
 ## Authors
 
 - **소현우** - 안드로이드 어플리케이션 개발
-- **표지희 **- 디자인 및 어플리케이션 UI 개발
+- **표지희**- 디자인 및 어플리케이션 UI 개발
 - [**박소영**](https://github.com/3457soso) - 서버 개발
